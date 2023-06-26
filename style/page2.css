@@ -21,19 +21,19 @@ body {
 .main-container {
     background-color: #FDFCF4;
     height: 100%;
-    padding-block: 70px;
+    padding-block: 30px;
 }
 
 h1 {
     background-color: #FFE500;
     padding: 30px 90px;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
     margin-top: 100px;
 }
 
 .fact-list {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     margin: 0;
     display: flex;
