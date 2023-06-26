@@ -21,11 +21,11 @@ body {
 .main-container {
     background-color: #FDFCF4;
     height: 100%;
-    padding-block: 70px;
+    padding-block:50px;
 }
 
 .fact-list {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     margin: 0;
     display: flex;
@@ -43,7 +43,7 @@ body {
 .headline {
     background-color: #5D330D;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     color: #FFFCF0;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .fact-list span {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .hamburger {
