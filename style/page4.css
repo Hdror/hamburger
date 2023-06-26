@@ -21,7 +21,7 @@ body {
 .main-container {
     background-color: #FDFCF4;
     min-height: calc(100%);
-    padding-block-start: 70px;
+    padding-block-start: 40px;
 }
 
 h1 {
@@ -43,6 +43,7 @@ h1 span{
     font-weight: 500;
     line-height: 1.5;
     font-size: 2rem;
+    padding-bottom: 0;
 }
 
 .hamburger {
