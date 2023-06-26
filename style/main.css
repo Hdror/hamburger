@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.header-container {
+    height: 200px;
+    background-color: #DFA043;
+    position: relative;
+}
+
+.sesame {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    position: absolute;
+}
+
+.sesame:nth-child(1) {
+    top: 40px;
+    left: 20px;
+}
+
+.sesame:nth-child(2) {
+    top: 70px;
+    left: 15%;
+}
+
+.sesame:nth-child(3) {
+    top: 110px;
+    left: 25%;
+}
+
+.sesame:nth-child(4) {
+    top: 80px;
+    left: 35%;
+}
+
+.sesame:nth-child(5) {
+    top: 120px;
+    left: 50%;
+}
+
+.sesame:nth-child(6) {
+    top: 20px;
+    left: 65%;
+}
+
+.sesame:nth-child(7) {
+    top: 130px;
+    left: 73%;
+}
+
+.sesame:nth-child(8) {
+    top: 120px;
+    left: 85%;
+}
+
+.sesame:nth-child(9) {
+    top: 30px;
+    left: 93%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 210px);
+}
+
+.red-section, .yellow-section, .brown-section, .green-section, .light-brown-section {
+    height: 90px;
+    cursor: pointer;
+}
+
+a{
+    height: 90px;
+    cursor: pointer;  
+}
+
+.brown-section{
+    height: 100%;
+
+}
+
+.light-brown-section{
+    height: 100px;
+}
+
+.brown-link {
+    flex-grow: 1;
+}
+
+.main-container div:hover {
+    opacity: .7;
+}
+

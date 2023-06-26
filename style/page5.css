@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('./font/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.main-container {
+    height: 100vh;
+    position: relative;
+}
+
+
+.fries {
+    width: 30px;
+    height: 100%;
+    background-color: #F8E224;
+    position: absolute;
+    left: 3%;
+}
+
+.fries:nth-child(1) {
+    left: 8%;
+}
+
+.fries:nth-child(2) {
+    left: 15%;
+}
+
+.fries:nth-child(3) {
+    left: 20%;
+}
+
+.fries:nth-child(4) {
+    left: 30%;
+}
+
+.fries:nth-child(5) {
+    left: 40%;
+}
+
+.fries:nth-child(6) {
+    left: 46%;
+}
+
+.fries:nth-child(7) {
+    left: 55%;
+}
+
+.fries:nth-child(8) {
+    left: 60%;
+}
+
+.fries:nth-child(9) {
+    left: 66%;
+}
+
+.fries:nth-child(10) {
+    left: 73%;
+}
+.fries:nth-child(11) {
+    left: 82%;
+}
+.fries:nth-child(12) {
+    left: 86%;
+}
+.fries:nth-child(13) {
+    left: 90%;
+}
+
+.content-container{
+    position: absolute;
+    text-align: right;
+    display: flex;
+    font-size: 3rem;
+    left: 50%;
+    transform:translateX(-50%);
+    bottom: 20%;
+}
+
+.sub-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0;
+    white-space: nowrap;
+    line-height: 0.75;
+}
+
+.headline {
+    font-size: 10rem;
+    margin: 0;
+    font-weight: 600;
+    line-height: 0.7;
+}
+
+.hamburger {
+    height: 45;
+    width: 45;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+
+

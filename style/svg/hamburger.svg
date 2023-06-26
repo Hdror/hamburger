@@ -1,0 +1,17 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="45" height="45" fill="#F5F5F5"/>
+<g id="Frame 2" clip-path="url(#clip0_0_1)">
+<rect width="1980" height="1020" transform="translate(-1898 -30)" fill="#FDFCF4"/>
+<g id="Group 1">
+<rect id="Rectangle 10" width="45" height="11.7278" fill="#DFA043"/>
+<rect id="Rectangle 12" y="19.4908" width="45" height="8.60037" fill="#5D330D"/>
+<rect id="Rectangle 13" y="28.013" width="45" height="4.33927" fill="#5D330D"/>
+<rect id="Rectangle 11" y="37" width="45" height="7.66214" fill="#DFA043"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1980" height="1020" fill="white" transform="translate(-1898 -30)"/>
+</clipPath>
+</defs>
+</svg>

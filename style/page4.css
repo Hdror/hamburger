@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('./font/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.main-container {
+    background-color: #FDFCF4;
+    min-height: calc(100%);
+    padding-block-start: 70px;
+}
+
+h1 {
+    background-color: #57B82A;
+    padding: 20px 90px;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+h1 span{
+    font-weight: 600;
+}
+
+.content-container {
+    padding: 70px 65px;
+    width: 65%;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+.hamburger {
+    height: 45;
+    width: 45;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
