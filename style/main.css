@@ -34,6 +34,10 @@ h6 {
     position: absolute;
 }
 
+.sesame:hover{
+    animation: rotate 1.5s ease-in-out ;
+}
+
 .sesame:nth-child(1) {
     top: 40px;
     left: 20px;
@@ -88,19 +92,24 @@ h6 {
 .red-section, .yellow-section, .brown-section, .green-section, .light-brown-section {
     height: 90px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-a{
+a {
     height: 90px;
-    cursor: pointer;  
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
 }
 
-.brown-section{
+.brown-section {
     height: 100%;
 
 }
 
-.light-brown-section{
+.light-brown-section {
     height: 100px;
 }
 
@@ -109,6 +118,30 @@ a{
 }
 
 .main-container div:hover {
-    opacity: .7;
+    opacity: 0.9;
+    box-shadow: 0px 1px 20px 0px rgb(249 248 249 / 75%);
+    transition:opacity 0.3s ease-in-out;
 }
 
+.main-container div h1 {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 1.2rem;
+}
+
+.main-container div:hover h1 {
+    opacity: 1;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 1px 1px white
+}
+
+@keyframes rotate{
+    0% {transform: rotate(90deg) scale(1.2);}
+    25% {transform: rotate(180deg) scale(1.3);}
+    50% {transform: rotate(270deg) scale(1.5);}
+    100% {transform: rotate(0deg) scale(1);}
+}
